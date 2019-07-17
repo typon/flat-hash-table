@@ -3,7 +3,7 @@ prebuilt_cxx_library(
   header_namespace = 'flat_hash_table', 
   header_only = True, 
   exported_headers = subdir_glob([
-    ('include/', '**/*.hpp'), 
+    ('include/fht', '**/*.hpp'), 
   ]), 
   visibility = [
     'PUBLIC', 
